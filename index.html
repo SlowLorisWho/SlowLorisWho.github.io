@@ -1,56 +1,101 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-  
-div {
-  float: left;
-  padding: 15px; 
+	<head>
+    	<meta charset="utf-8">
+    	<meta name = "viewport" content="width=device-width,initial-scale=1">
+    	<title>Center Text</title>
+    	<style type="text/css">
+        
+        a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-  .div1 {
-    background: red;
-  }
-
-  .div2 {
-    background: yellow;
-  }
-
-  .div3 {
-    background: green;
-  }
-  
-body {
-  background-image: url('Resources/water.gif');
-  background-size: 15% 15%;
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
 }
-  
-h1 {color:White;font-family:Papyrus;font-size:300%;text-align: center;}
-  
-h2 {color:White;font-family:Papyrus;text-align: center;}
-  
-</style> 
-</head>
-  
-<h1>Slow Loris</h1>
 
-<section> 
-  <h2>Meet the Band:</h2>
- 
-    <div class="div1"> <img src="Resources/Joe.png" alt="Joe" width="10%" height="10%"> </div>
-    <div class="div2"> <img src="Resources/Joe.png" alt="Joe" width="10%" height="10%"> </div>
-    <div class="div3"> <img src="Resources/Joe.png" alt="Joe" width="10%" height="10%"> </div>
-  </section>
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
-<section>   
-  <h2>Videos:</h2>
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
-  <video width="400" controls>
-    <source src="Resources/movie.mp4" type="video/mp4">
-    Your browser does not support HTML video.
-  </video>
-</section>
+        
+        	* {
+            	margin: 0;
+                padding: 0;
+      		}
+            body {
+            	background-color: #e0e0e0;
+            }
+            h1 {
+            	position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                text-align: center;
+                font-family: Luminari;
+                font-size: 300%;
+                letter-spacing: .5px;
+                line-height: 80%;
+                color: Red;
+            }
+            p {
+            	position: absolute;
+                left: 50%;
+                top: 55%;
+                transform: translateX(-50%);
+                text-align: center;
+                font-family: Luminari;
+                font-size: 100%;
+                letter-spacing: .3px;
+                color: White;
+           
+            }
+             
+             div.gargoyle1 {
+            	position: absolute;
+                left: 10%;
+                top: 55%;
+                transform: translateX(-50%)translateY(-50%);
+             }
+             
+             div.gargoyle2 {
+            	position: absolute;
+                left: 90%;
+                top: 55%;
+                transform: translateX(-50%)translateY(-50%);
+             }
+           
+            
   
-</body>
-</html>
+                
+              
+    	</style>
+	</head>
+    <body style="background-color:black;">
+    
+    		<h1>Slow Loris</h1>
+            <p> ...is a Toronto-based jazz fusion band performing the original music of <a href="https://www.w3schools.com/">Joe Morgenstern</a>. The core group includes Morgenstern (keyboards/synthesizers) <a href="https://www.w3schools.com/">Ben Payne </a>(bass), and <a href="https://www.w3schools.com/">Will Bentley</a> (drums). </p>
+            
+<div class="gargoyle1">
+<img src="https://horrorgifs.neocities.org/gifs/Gargoyle/Gargoyle%20(43).gif">
+</div>
+
+<div class="gargoyle2">
+<img src="https://horrorgifs.neocities.org/gifs/Gargoyle/Gargoyle%20(43).gif">
+</div>
+            
+            
+            
+    
