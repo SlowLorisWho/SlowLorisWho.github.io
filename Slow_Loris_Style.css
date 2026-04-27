@@ -9,7 +9,7 @@
 }
 
 body {
-     background-image: url("Resources/stars 3.gif");
+     background-image: url("stars 3.gif");
     font-family: 'Arial', sans-serif;
 }
 
@@ -54,6 +54,7 @@ ul {
 .topnav a {
   float: left;
   display: block;
+  font-family: fantasy;
   color: #f2f2f2;
   text-shadow:
   0px 0px 0.1em red,
@@ -67,7 +68,7 @@ ul {
 }
 
 .topnav a:hover {
-  font-weight: bold;
+  font-style: italic;
 }
 
 .topnav a.active {
@@ -103,12 +104,19 @@ ul {
     box-shadow: 0px 0px .6em rgb(0, 191, 255)
 }
 
-.construction {
-    align-self: center;
-    justify-self: center;
-    align-content: center;
+
+.paperback {
     justify-content: center;
-        
+    align-items: center;        
+    font-size: 1.2rem;
+    background-image: url("paperback.jpg");
+    font-family: fantasy;
+    /* BOX MODEL */
+    padding: 32px;
+    border: 5px solid black;
+    margin: auto 80px;
+}
+
 @media screen and (max-width: 600px) {
     .logo {
         width: 70%;
