@@ -9,7 +9,7 @@
 }
 
 body {
-     background-image: url("stars 3.gif");
+     background-image: url("Resources/stars 3.gif");
     font-family: 'Arial', sans-serif;
 }
 
@@ -120,7 +120,7 @@ ul {
     justify-content: center;
     align-items: center;        
     color: white;
-    background-image: url("pattern\ 238.gif");
+    background-image: url("pattern 238.gif");
     background-color: rgba(0, 0, 0, 0.2); 
     background-blend-mode: darken;
     font-family: fantasy;
