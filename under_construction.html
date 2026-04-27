@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -11,30 +11,45 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Slow_Loris_Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
-
-  <div class="header">
-  <h1>SLOW LORIS</h1>
 </div>
-
-<ul>
-  <li><a href="who.html">Who?</a></li>
-  <li><a href="index.html">Clips</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li class="active"><a href="under_construction.html" class="active">Primatology</a></li>
-</ul>
-
   
-  <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
-    <script src="" async defer></script>
+<body>
 
-<img src="construction.gif" alt="Under Construction!">    
+    <div class="title">
+        <img src="Slow Loris(Trans) (1).gif" alt="logo" class="logo">
+    </div>
 
+    <div class="topnav" id="myTopnav">
+     <a href="#home">Home</a>
+     <a href="#news">Clips</a>
+     <a href="#contact">Contact</a>
+     <a href="#about" class="active">Primatology</a>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="fa fa-bars"></i> </a>
+    </div> 
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+}
+</script>
 
-  </body>
+    <img src="Resources/construction.gif" alt="Under Construction!">    
+
+    </div>
+</body>
+
+      
 </html>
+
+ 
+
+
