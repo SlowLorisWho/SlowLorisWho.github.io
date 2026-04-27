@@ -9,7 +9,7 @@
 }
 
 body {
-     background-image: url("Resources/stars 3.gif");
+     background-image: url("stars 3.gif");
     font-family: 'Arial', sans-serif;
 }
 
@@ -104,7 +104,6 @@ ul {
     box-shadow: 0px 0px .6em rgb(0, 191, 255)
 }
 
-
 .paperback {
     justify-content: center;
     align-items: center;        
@@ -116,6 +115,76 @@ ul {
     border: 5px solid black;
     margin: auto 80px;
 }
+
+.waterback {
+    justify-content: center;
+    align-items: center;        
+    color: white;
+    background-image: url("pattern\ 238.gif");
+    background-color: rgba(0, 0, 0, 0.2); 
+    background-blend-mode: darken;
+    font-family: fantasy;
+    /* BOX MODEL */
+    padding: 32px;
+    border: 5px solid black;
+    margin: auto 150px;
+}
+.waterback p {
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px .5em rgb(0, 0, 0);
+}
+
+.waterback a:link {
+  color: yellow;
+}
+
+/* visited link */
+.waterback a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+.waterback a:hover {
+  color: rgb(250, 138, 194);
+  font-style: italic;
+}
+
+/* selected link */
+.waterback a:active {
+  color: blue;
+}
+
+/* .paperback p {
+    font-size: 1.5rem;
+}
+.app-copy-button {
+    display: inline-block;
+    margin-left: 5px;
+    background: #0B0C0C;
+    font-family: fantasy;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px
+}
+
+
+.app-copy-button:hover {
+    background-color: #444
+}
+
+.app-visually-hidden {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important
+}
+*/
 
 .construction {
   display: flex;
