@@ -88,6 +88,51 @@ ul {
   display: none;
 }
 
+.topnav2 {
+  display: flex;  
+  overflow: hidden;
+  justify-content:center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.topnav2 a {
+  float: left;
+  display: block;
+  font-family: fantasy;
+  color: #f2f2f2;
+  text-shadow:
+  0px 0px 0.1em red,
+  0 0 1em #ff00cb,
+  0 0 0.2em #e48ed2;
+  font-weight: normal;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav2 a:hover {
+  font-style: italic;
+}
+
+.topnav2 a.active {
+  text-shadow:
+  0px 0px 0.1em rgb(60, 0, 255),
+  0px 0 1em #0077ff,
+  0px 0 0.2em #35b1fe,
+  0px 0px 0.1em rgb(60, 0, 255),
+  -2px 0 1em #0077ff,
+  -2px 0 0.2em #35b1fe,
+  0px 0px 0.1em rgb(60, 0, 255),
+  2px 0 1em #0077ff,
+  2px 0 0.2em #35b1fe;
+}
+
+.topnav2 {
+  display: none;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -204,11 +249,21 @@ ul {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
+  .topnav {
+    display: none;
   }
+  .topnav2 {
+    display: flex;
+}
+}
+
+@media screen and (min-width: 601px) {
+  .topnav {
+    display: flex;
+  }
+  .topnav2  {
+    display: none;
+}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
