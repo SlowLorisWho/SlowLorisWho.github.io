@@ -20,6 +20,13 @@ body {
     height: 100%;   
 }
 
+.fa-solid {
+    text-shadow:
+    0px 0px 0.1em red,
+    0 0 1em #ff00cb,
+    0 0 0.2em #e48ed2;
+}    
+
 .title {
     display: flex;
     justify-self: center;
