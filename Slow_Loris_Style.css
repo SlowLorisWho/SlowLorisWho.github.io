@@ -23,11 +23,9 @@ body {
 .title {
     display: flex;
     justify-self: center;
-    justify-content: center;
-    align-items: center;
     /* BOX MODEL */
-    width: 480px;
-    height: 270px;
+    width: 30%;
+    height: auto;
     margin-top: 40px;
     overflow: hidden;
 }
@@ -242,9 +240,16 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
-    .logo {
+    .title {
         width: 70%;
-        height: 70%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .title {
+        width: 50%;
+        height: auto;
     }
 }
 
