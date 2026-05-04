@@ -168,9 +168,14 @@ ul {
     background-image: url("paperback.jpg");
     font-family: fantasy;
     /* BOX MODEL */
-    padding: 32px;
+    padding: 1rem;
     border: 5px solid black;
     margin: auto 80px;
+}
+
+.paperback p {
+    margin: 1rem 0;
+    text-indent: 1rem;
 }
 
 .waterback {
@@ -299,7 +304,10 @@ ul {
 
 @media screen and (max-width: 600px) {
   .paperback p {
-    font-size: 1rem;
+    font-size: .9rem;
   }
-} 
 
+  .paperback {
+    margin: auto 50px;    
+  } 
+}
