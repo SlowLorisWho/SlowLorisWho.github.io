@@ -14,9 +14,6 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-
-
-
 .title {
     display: flex;
     justify-content: center;
@@ -163,6 +160,41 @@ ul {
     width: 100%;
     height: auto;
     box-shadow: 0px 0px .6em rgb(0, 191, 255)
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    font-size: 1.5rem;
+    font-family: fantasy;
+    /* BOX MODEL */
+    padding: 32px;
+    margin: auto 10vw;
+}
+
+.subscribe p {
+    color: white;
+    text-shadow:
+    0px 0px 0.1em red,
+    0 0 1em #ff00cb,
+    0 0 0.2em #e48ed2;
+}
+
+.subscribe a:link {
+  color: white;
+  text-shadow:
+  0px 0px 0.1em rgb(60, 0, 255),
+  0px 0 1em #0077ff,
+  0px 0 0.2em #35b1fe;
+}
+
+.subscribe a:visited {
+  color: white;
+  text-shadow:
+  0px 0px 0.1em rgb(60, 0, 255),
+  0px 0 1em #0077ff,
+  0px 0 0.2em #35b1fe;
 }
 
 .paperback {
