@@ -174,7 +174,7 @@ ul {
     font-family: fantasy;
     /* BOX MODEL */
     padding: 32px;
-    margin: auto 10vw;
+    margin: auto .01em;
 }
 
 .subscribe p {
@@ -344,4 +344,8 @@ ul {
   .paperback {
     margin: auto 50px;    
   } 
+
+  .subscribe {
+    font-size: 1rem;    
+  }
 }
