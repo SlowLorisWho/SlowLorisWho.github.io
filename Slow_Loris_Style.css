@@ -148,7 +148,6 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: #0077ff solid 1px;
     margin: auto 10vw;
 }
 
