@@ -17,11 +17,16 @@ body {
 .title {
     display: flex;
     justify-content: center;
-    justify-self: center;
-    /* BOX MODEL */
     width: 30vw;
     height: auto;
-    margin-top: 40px;
+    margin: 40px auto 0 auto; /* Centers the container: 40px top, auto left/right */
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    width: 70vw;
+    /* margin: auto from above still applies here */
+  }
 }
 
 .logo  {
@@ -292,11 +297,6 @@ ul {
   align-items: center;      
 }
 
-@media screen and (max-width: 600px) {
-    .title {
-        width: 70vw;
-    }
-}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
