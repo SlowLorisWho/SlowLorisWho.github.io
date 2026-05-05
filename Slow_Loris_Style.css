@@ -209,13 +209,20 @@ ul {
     font-family: fantasy;
     /* BOX MODEL */
     padding: 1rem;
-    border: 5px solid black;
     margin: auto 10vw;
 }
 
 .paperback p {
-    margin: 1rem 0;
-    text-indent: 1rem;
+    margin: 1rem 1rem;
+    text-indent: 2rem;
+}
+
+.membername {
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0px 0px 0.1em red,
+    0 0 1em #ff00cb,
+    0 0 0.2em #e48ed2;
 }
 
 .waterback {
